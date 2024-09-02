@@ -1,0 +1,48 @@
+const platforms = [
+  {
+    id: 1,
+    icon: "fa-brands fa-apple",
+    name: "iOS App",
+    desc: "Create, browse and save palettes on the go.",
+    inform: "View on the App Store",
+    color: "text-sky-500",
+    hoverBg: "hover:bg-sky-100",
+  },
+  {
+    id: 2,
+    icon: "fa-brands fa-android",
+    name: "Android App",
+    desc: "Thousands of palettes inyour pocket.",
+    inform: "View on the Play Store",
+    color: "text-green-500",
+    hoverBg: "hover:bg-green-100",
+  },
+  {
+    id: 3,
+    icon: "fa-brands fa-figma",
+    name: "Figma Plugin",
+    desc: "All palettes right in your workspace.",
+    inform: "Install now",
+    color: "text-pink-500",
+    hoverBg: "hover:bg-pink-100",
+  },
+  {
+    id: 4,
+    icon: "fa-brands fa-chrome",
+    name: "Chrome Extension",
+    desc: "Get and edit a palette every new tab.",
+    inform: "Add to Chrome",
+    color: "text-purple-500",
+    hoverBg: "hover:bg-purple-100",
+  },
+  {
+    id: 5,
+    icon: "fa-brands fa-adn",
+    name: "Adobe Extension",
+    desc: "Use Coolors with your favorite tools.",
+    inform: "Download",
+    color: "text-yellow-500",
+    hoverBg: "hover:bg-yellow-100",
+  },
+];
+export default platforms;
